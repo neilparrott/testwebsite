@@ -1,0 +1,10 @@
+myCanvas{
+  /* width:100%; */
+    width: 300;
+    height: 300;
+}
+body{
+  margin:0;
+  background-color:black;
+  overflow:hidden;
+}
