@@ -24,7 +24,8 @@ document.getElementById("stop-button").addEventListener('click',() => {
    myVideo.pause();
    //Effect.osc.pause();
    myVideo.stopAudio();
-   //Effect.stopAudio();
+   Effect.stopAudio();
+   myVideo.srcObject=undefined;
 })
 
    </script>
